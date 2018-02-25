@@ -1,0 +1,23 @@
+@media screen and (min-width:768px){
+  .content {
+    height: 70vh;
+  }
+
+  .main-body{
+    height: 100vh;
+  }
+
+  .scroll-header{
+    height: 12vh;
+  }
+  .content-text {
+    height: 30vh;
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 768px ) {
+  .scroll-header{
+    height: 12vh;
+  }
+}

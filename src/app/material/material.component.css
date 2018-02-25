@@ -1,0 +1,5 @@
+
+.heading{
+  border-bottom: 1em solid transparent;
+  border-image: url("../../assets/images.png") 50 stretch;
+}

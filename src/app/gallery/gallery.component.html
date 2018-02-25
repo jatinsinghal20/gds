@@ -1,0 +1,14 @@
+<div class="main-body" style="text-align: center">
+  <div class="scroll-header"></div>
+  <h1 style="font-family: 'Monotype Corsiva';">Moments...</h1>
+  <div class="container">
+    <div class="content-image">
+      <img [src]="showImage" class="img-fluid">            
+    </div>
+  </div>
+  <div class="allImages"> 
+      <img *ngFor="let image of images" src={{image}} (click)="change(image)" class="thumb">
+  </div>
+  <button class=" btn btn-success"> <a scrollTo href="#team" style="color: white">Contact US</a></button>
+</div>
+  

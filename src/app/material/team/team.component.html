@@ -1,0 +1,28 @@
+
+<div class="main-body about1" style="text-align: center">
+  <div class="scroll-header"></div>
+  <h1 style="font-family: 'Monotype Corsiva';">Our Team</h1>
+  <div class="container content">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" (mouseenter)="changeFirst($event)" (mouseleave)="changeFirst($event)" >
+          <img src="../assets/i1.jpg" [ngClass] = "{'rounded':!flagP,'rounded-circle':flagP}">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text content-text" *ngIf="flagP">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 offset-md-4">
+        <div class="card"  (mouseenter)="changeSecond($event)" (mouseleave)="changeSecond($event)" >
+          <img src="../assets/i1.jpg"  [ngClass] = "{'rounded':!flagS,'rounded-circle':flagS}">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text content-text" *ngIf="flagS">Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a scrollTo href="#gallery" style="color: white"><button class=" btn btn-success">Meet US</button></a>
+</div>

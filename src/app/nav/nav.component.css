@@ -1,0 +1,12 @@
+@media screen and (min-width:768px){
+  .navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    text-align: center;
+  }
+
+  .item-centered{
+    text-align: center;
+  }
+}
